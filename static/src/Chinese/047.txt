@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1456446095",
+"appid": "1582028769404989",
+"title": "街角的祝福",
+"images": ["http://p2.music.126.net/ouvb8gjlPMa5d0usX53AKA==/109951165071477742.jpg"],
+"description": "歌曲名《街角的祝福》，由 魏如萱 演唱，收录于《街角的祝福》专辑中。《街角的祝福》下载，《街角的祝福》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "1970-01-01T08:00:00"

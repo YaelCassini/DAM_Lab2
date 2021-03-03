@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=417250724",
+"appid": "1582028769404989",
+"title": "Location",
+"images": ["http://p1.music.126.net/zBA4qp-a-fRSgk1WU_Ee4g==/3402988500033315.jpg"],
+"description": "歌曲名《Location》，由 Khalid 演唱，收录于《Location》专辑中。《Location》下载，《Location》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2016-08-26T00:00:00"

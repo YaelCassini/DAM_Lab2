@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=16783825",
+"appid": "1582028769404989",
+"title": "Wasted",
+"images": ["http://p2.music.126.net/j9F7g2VIBetk_3L4p1HpHw==/604731395284271.jpg"],
+"description": "歌曲名《Wasted》，由 Brandi Carlile 演唱，收录于《The Story》专辑中。《Wasted》下载，《Wasted》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2010-02-10T00:00:00"

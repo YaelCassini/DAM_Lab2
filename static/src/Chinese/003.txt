@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=273914",
+"appid": "1582028769404989",
+"title": "如水",
+"images": ["http://p1.music.126.net/UjM_trUiffagVDDa8PkJYA==/109951163118102504.jpg"],
+"description": "歌曲名《如水》，由 林二汶 演唱，收录于《林二汶 Eman Lam》专辑中。《如水》下载，《如水》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2012-08-28T08:00:00"

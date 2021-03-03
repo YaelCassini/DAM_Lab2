@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=31445772",
+"appid": "1582028769404989",
+"title": "理想三旬",
+"images": ["http://p2.music.126.net/cqTTEPAaxXG3cOwaE4E_-g==/109951163104103366.jpg"],
+"description": "歌曲名《理想三旬》，由 陈鸿宇 演唱，收录于《浓烟下的诗歌电台》专辑中。《理想三旬》下载，《理想三旬》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2015-12-31T00:00:00"

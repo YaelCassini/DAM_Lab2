@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1447679292",
+"appid": "1582028769404989",
+"title": "Do It",
+"images": ["http://p1.music.126.net/kGghvLKrdf1Em-kCp3LeBg==/109951164983060035.jpg"],
+"description": "歌曲名《Do It》，由 Chloe x Halle 演唱，收录于《Do It》专辑中。《Do It》下载，《Do It》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2020-05-14T00:00:00"

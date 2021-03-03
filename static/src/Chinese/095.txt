@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1330348068",
+"appid": "1582028769404989",
+"title": "起风了",
+"images": ["http://p2.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg"],
+"description": "歌曲名《起风了》，由 买辣椒也用券 演唱，收录于《起风了》专辑中。《起风了》下载，《起风了》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "1970-01-01T08:00:00"

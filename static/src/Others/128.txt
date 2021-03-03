@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=524149106",
+"appid": "1582028769404989",
+"title": "The Weekend (Funk Wav Remix)",
+"images": ["http://p1.music.126.net/7IBicmJK3eQG6oujT--0yQ==/109951163085211328.jpg"],
+"description": "歌曲名《The Weekend (Funk Wav Remix)》，由 SZA、Calvin Harris 演唱，收录于《The Weekend (Funk Wav Remix)》专辑中。《The Weekend (Funk Wav Rem",
+"pubDate": "2017-12-15T08:00:00"

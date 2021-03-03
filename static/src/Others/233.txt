@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=28137180",
+"appid": "1582028769404989",
+"title": "Funk (Original Mix)",
+"images": ["http://p2.music.126.net/VdTurrh9F1YgyGhx08oi_w==/5793326766878645.jpg"],
+"description": "歌曲名《Funk (Original Mix)》，由 Purple Disco Machine 演唱，收录于《Funk》专辑中。《Funk (Original Mix)》下载，《Funk (Original Mix)》在线试听，更多相关歌曲",
+"pubDate": "2014-01-14T00:00:00"

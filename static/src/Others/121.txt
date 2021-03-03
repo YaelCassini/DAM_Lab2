@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1401671455",
+"appid": "1582028769404989",
+"title": "Love Is Gone (feat. Dylan Matthew) (Acoustic)",
+"images": ["http://p1.music.126.net/E5JYsO4DR4_Y-CdidpUVCw==/109951164473460772.jpg"],
+"description": "歌曲名《Love Is Gone (feat. Dylan Matthew) (Acoustic)》，由 SLANDER、Dylan Matthew 演唱，收录于《Love Is Gone (Acoustic)》专辑中。《Love Is G",
+"pubDate": "2019-11-13T00:00:00"

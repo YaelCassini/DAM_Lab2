@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1461124855",
+"appid": "1582028769404989",
+"title": "如燕",
+"images": ["http://p2.music.126.net/Bd7q2l5PB2io9u8353EesA==/109951165120132495.jpg"],
+"description": "歌曲名《如燕》，由 朱兴东 演唱，收录于《如燕》专辑中。《如燕》下载，《如燕》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "1970-01-01T08:00:00"

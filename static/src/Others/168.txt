@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=26799959",
+"appid": "1582028769404989",
+"title": "Far From Over",
+"images": ["http://p1.music.126.net/aSmh_okBC7oevXcLCQ03BQ==/5518448859907644.jpg"],
+"description": "歌曲名《Far From Over》，由 Frank Stallone 演唱，收录于《One Shot '80 Volume 17》专辑中。《Far From Over》下载，《Far From Over》在线试听，更多相关歌曲推荐尽在网易",
+"pubDate": "2004-01-01T00:00:00"

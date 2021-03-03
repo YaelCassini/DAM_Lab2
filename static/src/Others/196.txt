@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1399087308",
+"appid": "1582028769404989",
+"title": "Good Morning Text",
+"images": ["http://p1.music.126.net/3VuJIUCa2BzyJ9sYVhG7KA==/109951164447399187.jpg"],
+"description": "歌曲名《Good Morning Text》，由 Queen Naija 演唱，收录于《Good Morning Text》专辑中。《Good Morning Text》下载，《Good Morning Text》在线试听，更多相关歌曲推荐",
+"pubDate": "2019-10-25T00:00:00"

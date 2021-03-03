@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=375328",
+"appid": "1582028769404989",
+"title": "小情歌",
+"images": ["http://p2.music.126.net/kaV4_oULlzEYWoXP2Qi31Q==/109951163434342307.jpg"],
+"description": "歌曲名《小情歌》，由 苏打绿 演唱，收录于《小宇宙》专辑中。《小情歌》下载，《小情歌》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2006-10-20T00:00:00"

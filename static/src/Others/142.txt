@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=27733632",
+"appid": "1582028769404989",
+"title": "Promise",
+"images": ["http://p1.music.126.net/3-rSg_s2vgzFzcgnbCRvwg==/2036295534673991.jpg"],
+"description": "歌曲名《Promise》，由 Matt Cab 演唱，收录于《Ongaku》专辑中。《Promise》下载，《Promise》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2013-09-24T00:00:00"

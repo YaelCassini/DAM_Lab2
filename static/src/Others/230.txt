@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=511699285",
+"appid": "1582028769404989",
+"title": "Heat Waves",
+"images": ["http://p2.music.126.net/eWytLn3-1s-Q5CvyIhwS5Q==/109951163094214946.jpg"],
+"description": "歌曲名《Heat Waves》，由 Jay Shepheard 演唱，收录于《The Heat》专辑中。《Heat Waves》下载，《Heat Waves》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2017-07-03T00:00:00"

@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1374056689",
+"appid": "1582028769404989",
+"title": "陪你去流浪",
+"images": ["http://p2.music.126.net/DHUrNjC-1d6Snpcfg20Umw==/109951164583315133.jpg"],
+"description": "歌曲名《陪你去流浪》，由 薛之谦 演唱，收录于《尘》专辑中。《陪你去流浪》下载，《陪你去流浪》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2019-12-09T00:00:00"

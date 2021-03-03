@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=428203132",
+"appid": "1582028769404989",
+"title": "Shutterbug",
+"images": ["http://p2.music.126.net/fCKEWFj1qWSCPdI8AVCWoQ==/1419469526399516.jpg"],
+"description": "歌曲名《Shutterbug》，由 Glenna 演唱，收录于《Shutterbug》专辑中。《Shutterbug》下载，《Shutterbug》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2012-08-07T00:00:00"

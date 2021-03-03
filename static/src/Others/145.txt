@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=556076025",
+"appid": "1582028769404989",
+"title": "Beautiful Crazy",
+"images": ["http://p1.music.126.net/JqqttsXVVmt1XLDu6JrqUw==/109951163316078529.jpg"],
+"description": "歌曲名《Beautiful Crazy》，由 Luke Combs 演唱，收录于《This One's for You Too (Deluxe Edition)》专辑中。《Beautiful Crazy》下载，《Beautiful Craz",
+"pubDate": "2018-05-04T00:00:00"

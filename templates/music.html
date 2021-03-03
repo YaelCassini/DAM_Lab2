@@ -1,0 +1,325 @@
+
+
+{% if name %}
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Hello to {{ name }}</title>
+<link rel="stylesheet"  type="text/css" href="{{ url_for('static', filename = 'css/music.css') }}">
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background-color: #f6f6f6;
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    position: fixed;
+    padding: 0;
+    top: 0%;    
+    height:15%;
+    width:100%;
+    z-index:0;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    position:fixed;
+    top:95%;
+    width:100%;
+    height:5%;
+    padding:1%; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+	  top: 15%;
+    height: 85%;
+    overflow: auto;
+}
+li{
+  clear:both;
+  width:100%;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #686868;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+ul input
+{
+  float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width:100%;
+}
+
+/* 设置导航栏的搜索框样式 */
+ul input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+#searchname
+{
+    position: absolute;;
+    left:0;
+    top:60%;
+    height:8%;
+    width:100%;
+}
+#searchsinger
+{
+    position: absolute;;
+    left:0;
+    top:70%;
+    height:8%;
+    width:100%;
+}
+#searchCD
+{
+    position: absolute;;
+    left:0;
+    top:80%;
+    height:8%;
+    width:100%;
+}
+.searchbotton
+{
+    position: absolute;
+    top:0;
+    right:0;
+    height:100%;
+    width:35%;
+    font-size:12px;
+    text-align: center;
+}
+
+.searchcontent
+{
+    position: absolute;;
+    left:0;
+    bottom:0;
+    height:100%;
+    width:65%;
+}
+
+#content {
+    position: absolute;    
+    width:85%;
+    height:75%;
+    left:15%;
+    top:15%;  
+    padding:10px;	 	
+    z-index:-1;
+    /*border: 3px solid #73AD21;*/
+}
+
+#backward{
+  position:absolute;
+  left:10px;
+  top:35%;
+  width:80px;
+  height:80px;
+
+}
+
+#forward{  
+  position:absolute;
+  right:8%;
+  top:35%;
+  width:80px;
+  height:80px;
+
+}
+
+.music {
+  position: absolute;
+    left:0%;
+    margin: auto;    
+    height: 80%;
+    width: 80%;
+    vertical-align: middle;
+    z-index:auto;
+}
+.music p{
+  position: absolute;
+  width:100%;
+  height:100%;
+  text-align: center; 
+  z-index:1;
+}
+
+#disc_pic {    
+    position: absolute;
+    width: 400px;
+    height:400px;
+    right: 5%;
+    transform: rotate(0);
+}
+
+#music_pic {
+  position: absolute;
+  width: 400px;
+  height:400px;
+  left: 15%;
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    background: #464545;
+    position: absolute;
+    border: 10px solid white;
+    border-radius: 50%;
+    top:170px;
+    right:220px;
+}
+
+#audio
+{  
+  position: absolute;
+  left:10%;
+  width:100%;
+  height:40%;
+  top:80%;
+}
+</style>
+</head>
+
+
+
+<body>
+
+<div id="header">
+  <h1><br>Music Player</h1>
+</div>  
+
+<ul >
+  <li><a  class="active" href="/">主页（全部歌曲）</a></li>
+  <li><a  href="{{musicdata.singer_addr}}">查看歌手</a></li>
+  <li><a  href="{{musicdata.CD_addr}}">查看专辑</a></li>
+
+    <form method="post" id="searchname" action="{{url_for('search_name')}}">
+        <input type="text" name="content" class="searchcontent" placeholder="请输入搜索内容">
+        <input type="submit" class="searchbotton" value="搜索歌名">
+    </form>
+    <form method="post" id="searchsinger" action="{{url_for('search_singer')}}">
+        <input type="text" name="content2" class="searchcontent" placeholder="请输入搜索内容">
+        <input type="submit" class="searchbotton" value="搜索歌手">
+    </form>
+    <form method="post" id="searchCD" action="{{url_for('search_CD')}}">
+        <input type="text" name="content3" class="searchcontent" placeholder="请输入搜索内容">
+        <input type="submit" class="searchbotton" value="搜索专辑">
+    </form>
+</ul>
+
+
+
+<div id="content">
+  <p>
+    歌曲信息： 歌名：{{musicdata.name}}  ;  歌手：{{musicdata.singer}}  ;  专辑：{{musicdata.CD}} 
+  </p>
+
+
+<div id="backward">
+  <a href={{musicdata.last_addr}}>
+    <img id="backward" border="0" src="{{ url_for('static',filename='src/backward.png') }}" />     
+  </a> 
+</div>
+<div id="forward">
+  <a href={{musicdata.next_addr}}>
+    <img id="forward" border="0" src="{{ url_for('static',filename='src/forward.png') }}" />  
+  </a> 
+</div>
+
+
+<div class="music">
+    <img src="{{ url_for('static',filename='src/disc.png') }}" alt="" id="disc_pic"> 
+    <img src="{{ url_for('static',filename=musicdata.pic_addr) }}" alt="" id="music_pic"> 
+    <span class="dot"></span>
+
+
+    <audio id="audio" controls="controls" autoplay="autoplay" loop="loop">
+    <source src="{{ url_for('static',filename=musicdata.mp3_addr) }}" type="audio/mpeg" />
+    </audio>
+
+    </div>
+</div>
+
+
+
+<div id="footer">
+@LPY.com_test
+</div>
+
+</body>
+
+<script>
+var audio=document.getElementById("audio");
+var rotateVal = 0 // 旋转角度
+var InterVal // 定时器
+	window.onload = function () {
+    document.getElementById("audio").onpause=function()
+    {
+      clearInterval(InterVal);
+    }
+    document.getElementById("audio").onplay=function()
+    {
+      rotate();
+    }
+
+	}
+   
+	// 设置定时器
+	function rotate () {
+		InterVal = setInterval(function () {
+			var img = document.getElementById('disc_pic')
+			rotateVal += 1//每次增加的角度
+			// 设置旋转属性(顺时针)
+			img.style.transform = 'rotate(' + rotateVal + 'deg)'
+			// 设置旋转属性(逆时针)
+			//img.style.transform = 'rotate(-' + rotateVal + 'deg)'
+			// 设置旋转时的动画  匀速0.1s
+			img.style.transition = '0.1s linear'
+		}, 10)
+	}
+
+</script>
+
+<script src="{{ url_for('static',filename='js/music.js') }}"></script>
+
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+</html>

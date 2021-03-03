@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=157276",
+"appid": "1582028769404989",
+"title": "Last Dance",
+"images": ["http://p2.music.126.net/HDdQFXVIlRvR96s0mQyu9g==/109951164170257125.jpg"],
+"description": "歌曲名《Last Dance》，由 伍佰 & China Blue 演唱，收录于《爱情的尽头》专辑中。《Last Dance》下载，《Last Dance》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "1996-06-01T00:00:00"

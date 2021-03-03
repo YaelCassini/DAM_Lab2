@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1442312981",
+"appid": "1582028769404989",
+"title": "纸船（电视剧《天醒之路》片尾曲）",
+"images": ["http://p1.music.126.net/8zl4n-hlm-2BKYsUG51SYQ==/109951164925881854.jpg"],
+"description": "歌曲名《纸船》，别名《电视剧《天醒之路》片尾曲》，由 薛之谦、郁可唯 演唱，收录于《纸船》专辑中。《纸船》下载，《纸船》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2020-07-17T00:00:00"

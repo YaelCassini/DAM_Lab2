@@ -1,0 +1,250 @@
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet"  type="text/css" href="{{ url_for('static', filename = 'css/catalog.css') }}">
+
+<style>
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin:0;
+    padding:0;
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    position: fixed;
+    padding: 0;
+    top: 0%;    
+    height:15%;
+    width:100%;
+    z-index:0;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    position:fixed;
+    top:95%;
+    width:100%;
+    height:5%;
+    padding:1%; 
+}
+
+#content {
+    width:85%;
+    left:15%;    
+    padding:10px;	 	
+    position: absolute;
+    top:15%;
+    right: 0px;
+    z-index:-1;
+    background-image:url('../static/src/back3.jpg');
+    background-repeat:repeat;
+    background-position:top;
+    /*border: 3px solid #73AD21;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+	top: 15%;
+    height: 85%;
+    overflow: auto;
+}
+li{
+  clear:both;
+  width:100%;
+  text-align: center;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #686868;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+ul input
+{
+  float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width:100%;
+}
+
+/* 设置导航栏的搜索框样式 */
+ul input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+#searchname
+{
+    position: absolute;;
+    left:0;
+    top:60%;
+    height:8%;
+    width:100%;
+}
+#searchsinger
+{
+    position: absolute;;
+    left:0;
+    top:70%;
+    height:8%;
+    width:100%;
+}
+#searchCD
+{
+    position: absolute;;
+    left:0;
+    top:80%;
+    height:8%;
+    width:100%;
+}
+.searchbotton
+{
+    position: absolute;
+    top:0;
+    right:0;
+    height:100%;
+    width:35%;
+    font-size:12px;
+    text-align: center;
+}
+
+.searchcontent
+{
+    position: absolute;;
+    left:0;
+    bottom:0;
+    height:100%;
+    width:65%;
+}
+
+
+.song
+{
+    background-color: #f1f1f1;
+    float:left;
+	width:110px;
+	height:190px;
+	margin:5px;
+}
+#song_data{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+    position: relative;
+    top:0px;
+    height:80px;
+    overflow: auto;
+    font-size: 12px;
+}
+
+.data {
+    display: block;
+    color: #000;
+    padding: 0;
+    text-decoration: none;
+}
+
+.data a.active {
+    background-color: #535353;
+    color: rgb(0, 0, 0);
+}
+.data a:hover:not(.active) {
+    background-color: #555;
+    color: rgb(0, 0, 0);
+}
+</style>
+
+</head>
+
+
+<body>
+<div id="header">
+<h1>Music Player</h1>
+</div>
+
+<ul>
+
+    <li><a  href="/all">主页（全部歌曲）</a></li>   
+    {% for temp2 in indexlist %} 
+
+    <li><a  href={{temp2}}>{{temp2}}</a></li>
+
+    {% endfor %} 
+
+    <form method="post" id="searchname" action="{{url_for('search_name')}}">
+        <input type="text" name="content" class="searchcontent" placeholder="请输入搜索内容">
+        <input type="submit" class="searchbotton" value="搜索歌名">
+    </form>
+    <form method="post" id="searchsinger" action="{{url_for('search_singer')}}">
+        <input type="text" name="content2" class="searchcontent" placeholder="请输入搜索内容">
+        <input type="submit" class="searchbotton" value="搜索歌手">
+    </form>
+    <form method="post" id="searchCD" action="{{url_for('search_CD')}}">
+        <input type="text" name="content3" class="searchcontent" placeholder="请输入搜索内容">
+        <input type="submit" class="searchbotton" value="搜索专辑">
+    </form>
+</ul>
+
+<div id="content">
+  <h2>Music</h2>
+  <p>You can click the picture or name to play the music.</p>
+
+
+  {% for temp in datalist %} 
+  <div class="song">
+       <a href={{temp.html_addr}}>
+        <img class="thumbnail" border="0" src="{{ url_for('static',filename=temp.pic_addr) }}" />     
+      </a> 
+
+    <ul id="song_data">
+        <li><a class="data" href="{{temp.html_addr}}">歌名: {{temp.name}}</a></li>
+        <li><a class="data" href="{{temp.singer_addr}}">歌手: {{temp.singer}}</a></li>
+        <li><a class="data" href="{{temp.CD_addr}}">专辑: {{temp.CD}}</a></li>
+    </ul>
+
+  </div>
+  {% endfor %} 
+
+</div>
+
+<div id="footer">
+music.com @ LPY
+</div>
+
+</body>
+
+</html>

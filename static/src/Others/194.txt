@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=514172234",
+"appid": "1582028769404989",
+"title": "Every Kind Of Way",
+"images": ["http://p2.music.126.net/4u1cumMb7QTHtezp_szlDQ==/18857723928088585.jpg"],
+"description": "歌曲名《Every Kind Of Way》，由 H.E.R. 演唱，收录于《H.E.R.》专辑中。《Every Kind Of Way》下载，《Every Kind Of Way》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2017-10-20T00:00:00"

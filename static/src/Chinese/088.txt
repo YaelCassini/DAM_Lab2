@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=408814900",
+"appid": "1582028769404989",
+"title": "借我",
+"images": ["http://p2.music.126.net/Eg4cy0_HIF2nrX2gMCsWkQ==/17967119509636556.jpg"],
+"description": "歌曲名《借我》，由 谢春花 演唱，收录于《算云烟》专辑中。《借我》下载，《借我》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2016-06-21T00:00:00"

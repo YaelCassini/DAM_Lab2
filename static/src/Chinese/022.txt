@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1393739628",
+"appid": "1582028769404989",
+"title": "Someday or One Day（电视剧《想见你》片头曲）",
+"images": ["http://p2.music.126.net/0CCWTWOmqtYSY6F0GAoYzQ==/109951164390775972.jpg"],
+"description": "歌曲名《Someday or One Day》，别名《电视剧《想见你》片头曲》，由 孙盛希 演唱，收录于《Someday or One Day》专辑中。《Someday or One Day》下载，《Someday or One Day》在",
+"pubDate": "2019-09-27T00:00:00"

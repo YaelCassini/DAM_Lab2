@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=1297750680",
+"appid": "1582028769404989",
+"title": "这是你想要的生活吗（Isn't it perfect）",
+"images": ["http://p1.music.126.net/KYb3H33YZxDWO8pm4EcIFQ==/109951164915642694.jpg"],
+"description": "歌曲名《这是你想要的生活吗》，别名《Isn't it perfect》，由 房东的猫 演唱，收录于《这是你想要的生活吗》专辑中。《这是你想要的生活吗》下载，《这是你想要的生活吗》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2018-08-04T00:00:00"

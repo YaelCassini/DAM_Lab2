@@ -1,0 +1,7 @@
+"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+"@id": "http://music.163.com/song?id=386542",
+"appid": "1582028769404989",
+"title": "拥抱",
+"images": ["http://p2.music.126.net/v4V40sXKnaqsG0ACyY0aDg==/109951164912221924.jpg"],
+"description": "歌曲名《拥抱》，由 五月天 演唱，收录于《我们是五月天》专辑中。《拥抱》下载，《拥抱》在线试听，更多相关歌曲推荐尽在网易云音乐",
+"pubDate": "2003-04-01T00:00:00"
